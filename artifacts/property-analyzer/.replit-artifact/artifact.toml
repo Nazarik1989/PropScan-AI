@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Property Document Analyzer"
+version = "1.0.0"
+id = "artifacts/property-analyzer"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21472
+
+[services.development]
+run = "pnpm --filter @workspace/property-analyzer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/property-analyzer", "run", "build" ]
+publicDir = "artifacts/property-analyzer/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21472"
+BASE_PATH = "/"

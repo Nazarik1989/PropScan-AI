@@ -1,8 +1,8 @@
 # PropScan AI
 
-AI-powered property document analysis platform designed to help legal professionals, real estate investors and conveyancing firms review property documents faster and identify hidden risks before transactions are completed.
+The intelligence layer for property documents.
 
----
+AI-powered property due diligence platform that analyzes property documents, identifies risks, detects missing files and generates structured recommendations for legal professionals and investors.
 
 ## Overview
 

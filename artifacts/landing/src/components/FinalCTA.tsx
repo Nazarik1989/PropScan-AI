@@ -26,7 +26,7 @@ export default function FinalCTA() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/">
+            <a href="http://88.218.169.93:3000" target="_blank" rel="noreferrer">
               <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-base bg-white text-slate-900 hover:bg-slate-100 hover:text-blue-700 transition-colors">
                 Start Analyzing Free <ArrowRight className="ml-2 w-5 h-5" />
               </Button>

@@ -36,11 +36,11 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="/">
-                <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-blue-600 hover:bg-blue-700 text-white border-0">
+              <a href="http://88.218.169.93:3000" target="_blank" rel="noreferrer">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 h-12">
                   Start Analyzing <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
-              </a>
+              </a> 
               <Button
                 size="lg"
                 variant="outline"
